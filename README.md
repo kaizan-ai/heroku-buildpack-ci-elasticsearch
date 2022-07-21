@@ -6,6 +6,8 @@ After the regular installation of Java performed by the original buildpack, it d
 
 The ELASTICSEARCH_URL environment variable is exported for use in your application.
 
+Sets `xpack.security.enabled=false` to disable security in elasticsearch 8.0+
+
 License
 -------
 
